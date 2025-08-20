@@ -43,7 +43,6 @@
   object-fit: cover;
 }
 
-/* ====== Create Post Card ====== */
 .create-post-card {
   background: white;
   border: 1px solid #ddd;
@@ -90,18 +89,18 @@
   }
 }
 
-/* ====== Post Dialog ====== */
+
 .post-dialog-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.4); /* dim background */
+  background: rgba(0, 0, 0, 0.4); 
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 3000; /* above everything */
+  z-index: 3000; 
 }
 
 .post-dialog {
@@ -143,7 +142,7 @@
     min-height: 200px;
   }
 .post-editor {
-  height: 200px;        /* adjust height */
+  height: 200px;        
   margin-top: 10px;
   border-radius: 8px;
 }
@@ -170,19 +169,18 @@
       font-weight: 600;
 
       &:disabled {
-        background: #cfd6db;
+        background: white;
       }
     }
   }
 
 
-/* ====== Visibility Menu ====== */
 .visibility-menu {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #fff;
+  background: White;
   width: 400px;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -191,7 +189,6 @@
   display: flex;
   flex-direction: column;
 
-  /* Header */
   &::before {
     content: "Post settings";
     font-size: 16px;
@@ -210,7 +207,7 @@
 
     i {
       font-size: 20px;
-      color: #666;
+      color: gray;
     }
 
     div {
@@ -223,12 +220,12 @@
 
     p {
       font-size: 12px;
-      color: #666;
+      color:grey;
       margin: 0;
     }
 
     &:hover {
-      background: #f3f2ef;
+      background:white;
     }
   }
 
@@ -267,21 +264,20 @@
   }
 }
 
-/* ====== Toggle Switch Styles ====== */
 .toggle-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* pushes ends apart */
-  gap: 8px; /* space between items */
+  justify-content: space-between; 
+  gap: 8px; 
 }
 
 .label {
   display: flex;
-  flex-direction: column; /* text above subtext */
+  flex-direction: column; 
 }
 
 .info-icon {
-  margin-left: auto; /* pushes it to the far right between label and toggle */
+  margin-left: auto; 
   cursor: pointer;
 }
 
@@ -323,7 +319,7 @@
 }
 
 .switch input:checked + .slider {
-  background-color: #0a66c2; /* LinkedIn blue */
+  background-color: blue; 
 }
 
 .switch input:checked + .slider::before {
