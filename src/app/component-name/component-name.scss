@@ -1,0 +1,166 @@
+.titlebar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 8px 20px;
+}
+
+.logo {
+  height: 32px;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 500px;
+  margin: 0 40px;
+}
+
+.search {
+  flex: 1;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.icon-bar {
+  display: flex;         
+  align-items: center;    
+    gap: 10px;
+}
+
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.icon-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.create-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f3f3f3;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.create-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.profile-circle {
+  width:30px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color:orangered;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.notification-dropdown {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  width: 340px;
+  max-height: 350px;
+  overflow-y: auto;
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  padding: 10px;
+  z-index: 2000;
+  font-size: 14px
+}
+
+.notif-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:4px 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.notif-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.notif-item:hover {
+  background: #f2f2f2;
+}
+
+.notif-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.notif-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px
+}
+
+.notif-content .time {
+  font-size: 12px;
+  color: #777;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px 40px;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.video-card img {
+  width: 100%;
+  height: 180px; 
+  object-fit: cover; 
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.video-card h4 {
+  font-size: 16px;
+  margin: 4px 0;
+}
+
+.video-card p {
+  font-size: 14px;
+  color: gray;
+}
