@@ -1,20 +1,17 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common'; 
 import { FormsModule } from '@angular/forms'; 
-
 @Component({
-  selector: 'app-component-name',
-  imports: [ 
-CommonModule, 
-FormsModule
-] ,
-  templateUrl: './component-name.html',
-  styleUrl: './component-name.scss'
+  selector: 'app-tittlebar-youtube',
+  imports: [CommonModule,FormsModule ],
+  templateUrl: './tittlebar-youtube.html',
+  styleUrl: './tittlebar-youtube.scss'
 })
-export class App{
+export class TittlebarYoutube {
   showNotifications = false;
 
   toggleNotifications() {
     this.showNotifications = !this.showNotifications;
   }
+  
 }
