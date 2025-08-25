@@ -61,3 +61,4 @@ For more information on using the Angular CLI, including detailed command refere
 "# UI--Linkedin" 
 "# UI--Linkedin" 
 "# Standalone_components" 
+"# Standalone_components" 
